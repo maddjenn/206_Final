@@ -1,6 +1,8 @@
 from covidai.auth import authenticate_with_azure
 from covidai.common.database import SqlServerDatabaseEngine
 from covidai.common.experimental import get_and_format_data
+import requests
+import sqlite3
 
 def get_covidapi_data():
     covid_dic = {}

@@ -43,7 +43,7 @@ def make_articles_table(cur, conn, data):
      
 
 def main():
-    cur, conn = open_database('FinalDatabaseTest.db')
+    cur, conn = open_database('FinalDatabase.db')
     data = get_newsapi_data("covid")
     make_articles_table(cur, conn, data)
 
