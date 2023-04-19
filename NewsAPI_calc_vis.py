@@ -38,7 +38,7 @@ def visualization(dic):
 def main():
     cur, conn = open_database('FinalDatabase.db')
     results = get_calculations(cur, conn)
-    write_file('Calculations.txt', results)
+    write_file('NewsAPI_Calculations.txt', results)
     visualization(results)
     
 
