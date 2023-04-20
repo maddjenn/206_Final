@@ -1,4 +1,4 @@
-For the News API calculations, we decided that it would be interesing to see how many titles include the word Covid.
+For the News API calculations, we decided that it would be interesting to see how many titles include the word Covid.
 We retrieved 200 articles about diseases, in general, and covid.
 Below are the answers: 
 The number of titles that include covid is: 81. 
