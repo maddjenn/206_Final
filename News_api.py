@@ -44,9 +44,9 @@ def make_articles_table(cur, conn, data):
 
 def main():
     cur, conn = open_database('FinalDatabase.db')
-    covid_data = get_newsapi_data("covid")
+    #covid_data = get_newsapi_data("covid")
     disease_data = get_newsapi_data('disease')
-    make_articles_table(cur, conn, covid_data)
+    #make_articles_table(cur, conn, covid_data)
     make_articles_table(cur, conn, disease_data)
 
 

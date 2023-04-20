@@ -19,7 +19,7 @@ def get_calculations(cur, conn):
 
 def write_file(filename, dic):
     with open(filename, 'w') as file:
-        file.write('For the News API calculations, we decided that it would be interesting to see how many titles include the word Covid.\n''We retrieved 200 articles about diseases, in general, and covid.\n' 'Below are the answers: \n' )
+        file.write('For the News API calculations, we decided that it would be interesting to see how many titles include the word Covid.\n''We retrieved 100 articles about diseases, in general.\n' 'Below are the answers: \n' )
         file.write(f'The number of titles that include covid is: {dic["covid_titles"]}. \n')
         file.write(f'The number of titles that do not include covid is: {dic["non_covid_titles"]}.\n')
 
