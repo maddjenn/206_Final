@@ -1,0 +1,9 @@
+Using information gathered from a public COVID-19 tracking database, we consolidated data on the total listed COVID-19 cases and deaths per country.
+With this data, we were able to approximate COVID-19 survival rates per country.
+Here are some statistics gathered using that data:
+
+The average survival rate is 98.78571833742836%, with median of 99.09590349653871% and stdev of 1.013894518224369.
+
+The country with the highest survival rate is North Korea with a survival rate of 99.99844955165852%. North Korea's survival rate is about 1.2127312142301605% away from the mean.
+
+The country with the lowest survival rate is Peru with a survival rate of 95.10833259416898%. Peru's survival rate is about 3.6773857432593786% away from the mean.
