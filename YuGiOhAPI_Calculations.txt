@@ -1,0 +1,7 @@
+Using information gathered from a public YuGiOh API database, we calculated the division of card types in the database:
+The percentage of Monster Cards out of the database totaled 90.9090909090909%.
+
+The percentage of Spell Cards out of the database totaled 4.545454545454546%.
+
+The percentage of Trap Cards out of the database totaled 4.545454545454546%.
+

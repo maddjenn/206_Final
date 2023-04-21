@@ -1,0 +1,15 @@
+Using information gathered from a public COVID-19, we consolidated data on COVID-19 cases per day for 420 days preceding 03/07/2021.
+Here are some statistics gathered using that data:
+
+The average percent of positive test cases over the span of 420 days was 7.188179614940246%.
+
+The maximum percent of positive test cases over the span of 420 days was 8.346544189710398%.
+
+The minimum percent of positive test cases over the span of 420 days was 6.008920376409237%.
+
+The average percent of positive test cases over the span of 226 days was 7.369696694662957%.
+
+The maximum percent of positive test cases over the span of 226 days was 15.15813759888712%.
+
+The minimum percent of positive test cases over the span of 226 days was 3.5667582486829836%.
+
