@@ -40,7 +40,7 @@ def make_table(cur, conn, data):
 		if exists is None:
 			cur.execute('INSERT OR IGNORE INTO Countries (country, confirmed, deaths) VALUES (?,?,?)', (country, confirmed, deaths))
 			count += 1
-		if count > 25:
+		if count > 24:
 			break
 	conn.commit()
 
