@@ -12,17 +12,17 @@ cur.execute("SELECT * \
                 ORDER BY generalData.date ASC")
 rows = cur.fetchall()
 dates = []
-positives = []
+hospitalized = []
 for row in rows:
     dates.append(str(row[0])[4:6] + '/' + str(row[0])[6:] + '/' + str(row[0])[:4])
-    positives.append((row[8]/row[14]) * 100)
+    hospitalized.append((row[8]/row[14]) * 100)
     # print("hosp: " + str(row[8]) + "total: " + str(row[14]) + '\n') 
 
 
 
 plt.rcParams["figure.figsize"] = [7.50, 3.50]
 plt.rcParams["figure.autolayout"] = True
-plt.bar(dates, positives)
+plt.bar(dates, hospitalized)
 plt.title("Percent Hospitalized by COVID-19 Per Day")
 plt.xlabel("Dates")
 plt.xticks(rotation = 90)

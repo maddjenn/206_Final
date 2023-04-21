@@ -1,9 +1,5 @@
 import sqlite3
 from statistics import mean 
-import numpy as np
-
-con = sqlite3.connect('FinalDatabase.db')
-cur = con.cursor()
 
 con = sqlite3.connect('FinalDatabase.db')
 cur = con.cursor() 
