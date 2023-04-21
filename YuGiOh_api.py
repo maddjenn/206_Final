@@ -43,7 +43,6 @@ def make_tables(data, cur, con):
         if added > 99:
             break
     con.commit()
-    return data
     
 
      
